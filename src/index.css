@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.rtl-grid {
+    direction: rtl;
+  }
+  
+  .ltr-grid {
+    direction: ltr;
+  }
+  
+  
+  
+  /* .rtl-grid > * {
+    direction: ltr;
+  }
+  
+  .ltr-grid > * {
+    direction: ltr;
+  } */
+  
