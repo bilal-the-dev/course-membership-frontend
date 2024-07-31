@@ -11,7 +11,7 @@ const CourseCard = ({ chapter, duration, isLocked,id }) => {
     <Link 
    to={isLocked?'#':`/chapter/${id}`}
    onClick={handleClick}
-    className="card1  lg:w-full   xl:w-[75%] 2xl:max-w-[350px] 3xl:max-w-[400px] w-[90%]  mx-auto xl:mx-0">
+    className="card1 lg:max-w-[170px]   xl:max-w-[235px] 2xl:max-w-[350px] 3xl:max-w-[400px] w-[90%]  mx-auto xl:mx-0">
       <div className={`flex  relative flex-col  border-2 border-primary_gold rounded-[21px] xl:rounded-2xl  md:rounded-[38px] 2xl:rounded-[20px] lg:rounded-xl  `}>
         <div className={`w-full ${isLocked ? 'opacity-50' : ''}`}><img className='w-full h-full object-cover' src={pic} alt="" /></div>
         <div className={`flex ${isLocked ? 'opacity-50' : ''} flex-col leading-tight rounded-b-2xl bg-shaded-gray py-2 px-1`}>
