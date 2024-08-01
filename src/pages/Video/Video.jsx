@@ -3,7 +3,7 @@ import { icon, image, quiz, play } from "../../utils/index.js";
 import background from "../../../src/assets/bg.svg";
 
 import { Navbar, Sidebar } from "../../index.js";
-const ok = 1;
+const nic3 = 1;
 const Video = () => {
   return (
     <div
